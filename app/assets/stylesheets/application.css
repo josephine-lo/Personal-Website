@@ -1,0 +1,112 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap";
+@import url("https://use.typekit.net/zgu2qlb.css");
+
+
+html, body {
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	background-color: #FFFFFF;
+	margin-left: 10%;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+hr {
+	display: block;
+	border: none;
+	border-top: 3px #909090 solid;
+	height: 1px;
+
+}
+
+#navbar {
+  position: fixed;
+	width: 25%;
+	height: 36vw;
+	z-index: 1;
+	top: 5%;
+	left: 4%;
+	background: #f2f2f2;
+	overflow-x: hidden;
+	overflow-y: hidden;
+  /*box-shadow: 10px 10px #a9a9a9;*/
+  display: grid;
+}
+
+.portrait {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+}
+
+figcaption {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 85%;
+  color: #d2b48c;
+  left: 8%;
+  top: calc(25vw + 30px);
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.icon1 {
+  position: absolute;
+  bottom: calc(2vw);
+  left: calc(13% + 5px);
+}
+
+.icon2 {
+  position: absolute;
+  text-align: center;
+  bottom: calc(2vw);
+  left: calc(42% + 5px);
+}
+
+.icon3 {
+  position: absolute;
+  bottom: calc(2vw);
+  left: calc(70% + 5px);
+}
+
+.main{
+	margin-left: 15%;
+	font-size: 28px;
+	padding: 0px 10px;
+}
+
+.options {
+	margin-right: 15%;
+	margin-top: 0%;
+}
+
+.options a:link {
+  float: right;
+  text-decoration: none;
+  padding-right:3%;
+  padding-top: 3%;
+  font-size: 25px;
+  color: #a9a9a9; 
+  letter-spacing: 2px;
+}
+.options a:hover {
+	color: #c3c3c3 }
+a:visited {
+	color: #a9a9a9 }

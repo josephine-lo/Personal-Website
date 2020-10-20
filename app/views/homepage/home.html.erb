@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://use.typekit.net/zgu2qlb.css">
+	<title>Josephine Lo</title>
+
+</head>
+
+<body>
+	<div class="options">
+		<%= link_to "EXPERIENCE", "/experience" %>
+		<%= link_to "PROJECTS", "/projects" %>
+		<%= link_to "HOME", "/home" %>
+	</div>	
+	<div id="navbar">
+		<figure>
+			<div>
+				<figcaption>JOSEPHINE LO</figcaption>
+				<%= image_tag("portrait.jpeg", :class => "portrait", :alt => "Photo of Josephine Lo", :width => "100%")%>
+				<%= link_to image_tag("mail.png", :class => "icon1", :alt => "Email Icon"), "mailto:jlo2@scu.edu" %>
+				<%= link_to image_tag("linkedin.png", :class => "icon2", :alt => "Linkedin Icon"), "https://www.linkedin.com/in/lo-josephine/", :target => "_blank" %>
+				<%= link_to image_tag("github.png", :class => "icon3", :alt => "Github Icon"), "https://github.com/josephine-lo", :target => "_blank"%>
+			</div>
+		</figure>
+	</div>
+	<div class="main">
+		<div class="container">
+			<div class="row">
+				<div class="greet">
+					<h1>.josephine-lo {</h1>
+					<h2>
+				  	<p>&emsp;&emsp;<i>school:</i> Santa Clara University;</p>
+				  	<p>&emsp;&emsp;<i>major:</i> Computer Science, B.S.;</p>
+				  	<p>&emsp;&emsp;<i>standing:</i> Junior;</p>
+				  	<p>&emsp;&emsp;<i>expected-graduation:</i> June 2022;</p>
+				  	</h2>
+				  	<h1>}</h1>
+				</div>
+			</div>
+
+			<br><br><br><br><br><br><br><br><br><br>
+			Hello there! This website is currently under construction--please pardon the dust!
+			<!--
+			<div class="row">
+				<div class="square">RECENT PROJECTS</div>
+				<div class="intro">
+					<img src="./img/blockybunny.png" class="blockybunny">
+				</div>
+			</div>
+		</div>-->
+	</div>
+	<%= yield %>
+</body>
+</html>
