@@ -26,13 +26,6 @@ html, body {
 	overflow-x: hidden;
 }
 
-hr {
-	display: block;
-	border: none;
-	border-top: 3px #909090 solid;
-	height: 1px;
-
-}
 
 #navbar {
   position: fixed;
@@ -109,3 +102,9 @@ figcaption {
 	color: #c3c3c3 }
 a:visited {
 	color: #a9a9a9 }
+
+@media only screen and (max-width: 1200px){
+	figcaption{
+		visibility: hidden;
+	}
+}
