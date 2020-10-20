@@ -1,24 +1,16 @@
-# README
+# Personal Website
+## Introduction ##
+Welcome to my personal website! This can be viewed at https://josephine-lo.herokuapp.com/ or https://tinyurl.com/lo-josephine
+This started as a static HTML website, view [here](http://josephine-lo.github.io), but I decided to learn something new, so I took on Rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This website was created with Rails and deployed to Heroku.
 
-Things you may want to cover:
+## Technologies ##
+* Ruby (v. 2.7.2)
+* Rails (v. 6.0.3.4)
+* Bootstrap 4
+* HTML (ERB)
+* SCSS/CSS
+* Heroku
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
