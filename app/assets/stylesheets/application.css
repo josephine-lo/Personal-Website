@@ -14,6 +14,11 @@
  *= require_self
  */
 
+/*
+ *= require font-awesome
+ */
+
+
 @import url("https://use.typekit.net/zgu2qlb.css");
 
 
@@ -42,7 +47,7 @@ html, body {
 }
 
 .portrait {
-  position: absolute;
+  position: relative;
   top: 0%;
   width: 100%;
 }
@@ -57,25 +62,76 @@ figcaption {
   top: calc(25vw + 30px);
   font-size: 40px;
   letter-spacing: 5px;
+  /*text-shadow: 2px 2px 1px #909090;*/
 }
 
-.icon1 {
-  position: absolute;
-  bottom: calc(2vw);
-  left: calc(13% + 5px);
+.mail-icon {
+  color: #909090;
 }
 
-.icon2 {
-  position: absolute;
-  text-align: center;
-  bottom: calc(2vw);
-  left: calc(42% + 5px);
+.fa-envelope {
+  color: #909090;
 }
 
-.icon3 {
-  position: absolute;
-  bottom: calc(2vw);
-  left: calc(70% + 5px);
+.fa-envelope:hover {
+  color: white;
+}
+
+.mail-icon:hover i.fas:before {
+  visibility: visible;
+}
+
+.mail-icon i.fas:before {
+  visibility: hidden;
+}
+
+.linkedin-icon {
+  color: #909090;
+}
+
+.fa-linkedin-in {
+  color: #909090;
+}
+
+.fa-linkedin-in:hover {
+  color: white;
+}
+
+.linkedin-icon:hover i.fab:before {
+  color: white;
+}
+
+.linkedin-icon:hover i.fas:before {
+  color: #0e76a8;
+  visibility: visible;
+}
+
+.linkedin-icon i.fas:before {
+  visibility: hidden;
+}
+
+.github-icon i.fab{
+  color: #f2f2f2;
+  height: 61px;
+  max-width: 55px;
+  background-color: #909090;
+  border-radius: 50%;
+  left: 13%;
+}
+
+.github-icon i.far {
+  color: #909090;
+  font-size: 74px;
+  left: 1.5%;
+  top: -6%;
+}
+
+.github-icon:hover i.fab:before {
+  color: black;
+}
+
+.navbar .row {
+  bottom: 0%;
 }
 
 .main{

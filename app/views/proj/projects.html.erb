@@ -5,8 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<link rel="stylesheet" href="mystyle.css">
 	<link rel="stylesheet" type="text/css" href="https://use.typekit.net/zgu2qlb.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
 	<title>Josephine Lo</title>
 </head>
 
@@ -21,9 +22,27 @@
 			<div>
 				<figcaption>JOSEPHINE LO</figcaption>
 				<%= image_tag("portrait.jpg", :class => "portrait", :alt => "Photo of Josephine Lo", :width => "100%")%>
-				<%= link_to image_tag("mail.png", :class => "icon1", :alt => "Email Icon"), "mailto:jlo2@scu.edu" %>
-				<%= link_to image_tag("linkedin.png", :class => "icon2", :alt => "Linkedin Icon"), "https://www.linkedin.com/in/lo-josephine/", :target => "_blank" %>
-				<%= link_to image_tag("github.png", :class => "icon3", :alt => "Github Icon"), "https://github.com/josephine-lo", :target => "_blank"%>
+				<div class="mail-icon">
+					<span class="fa-stack" style="position: absolute; left: 15%; bottom: 6%; font-size: 18.5px">
+						<i class="far fa-circle fa-4x fa-stack-1x"></i>
+						<i class="fas fa-circle fa-4x fa-stack-1x"></i>
+						<a href="mailto:jlo2@scu.edu"><i class="far fa-envelope fa-2x fa-stack-2x" style="left: 30%;"></i></a>
+						<a href="mailto:jlo2@scu.edu"><i class="fas fa-envelope fa-2x fa-stack-2x" style="left: 30%;"></i></a>
+					</span>
+				</div>
+				<div class="github-icon">
+					<span class="fa-stack" style="position: absolute; right: 15%; bottom: 4%; font-size: 30px;">
+						<i class="far fa-circle fa-4x fa-stack-1x"></i>
+						<a href="https://github.com/josephine-lo" target="_blank"><i class="fab fa-github fa-2x fa-stack-2x" style="position: absolute; bottom: 3%; right: 100%;"></i></a>
+					</span>
+				</div>
+				<div class="linkedin-icon">
+					<span class="fa-stack" style="position: absolute; left: calc(25vw - 58%); bottom: 6%; font-size: 18.5px">
+						<i class="fas fa-circle fa-4x fa-stack-1x" style="position: absolute; left: 0%"></i>
+						<i class="far fa-circle fa-4x fa-stack-1x" style="position: absolute; left: 0%;"></i></a>
+						<a href="https://www.linkedin.com/in/lo-josephine/" target="_blank"><i class="fab fa-linkedin-in fa-2x fa-stack-2x" style="padding-left:45%;"></i></a>
+					</span>
+				</div>
 			</div>
 		</figure>
 	</div>

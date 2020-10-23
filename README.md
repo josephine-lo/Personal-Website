@@ -1,7 +1,7 @@
 # Personal Website
 ## Introduction ##
 Welcome to my personal website! This can be viewed at https://josephine-lo.herokuapp.com/ or https://tinyurl.com/lo-josephine
-This started as a static HTML website, view [here](http://josephine-lo.github.io), but I decided to learn something new, so I took on Rails.
+This started as a static HTML website, but I decided to learn something new, so I took on Rails.
 
 This website was created with Rails and deployed to Heroku.
 
