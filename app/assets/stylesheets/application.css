@@ -134,7 +134,7 @@ figcaption {
   bottom: 0%;
 }
 
-.main{
+.main {
 	margin-left: 15%;
 	font-size: 28px;
 	padding: 0px 10px;
@@ -163,4 +163,12 @@ a:visited {
 	figcaption{
 		visibility: hidden;
 	}
+}
+
+@media screen and (min-width: 700px) {
+  .main {
+    margin-left: 20%;
+    font-size: 28px;
+    padding: 0px 10px;
+  }
 }

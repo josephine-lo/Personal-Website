@@ -3,12 +3,6 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 
-
-@media screen and (max-height: 450px) {
-	.sidenav { padding-top: 15px; }
-	.sidnav a { font-size: 18px; }
-}
-
 img.bunny {
 	width: 40%;
 	height: auto;
@@ -227,4 +221,23 @@ a.seeMore:hover, a.seeMore:active{
 
 .intro img {
   width: 25%;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px){
+  .main {
+    margin-left: 20%;
+    font-size: 28px;
+    padding: 0px 10px;
+  }
+
+  .greet {
+    padding-top: 10vh;
+    padding-left: 3vw;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
 }
